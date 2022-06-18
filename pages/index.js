@@ -20,9 +20,9 @@ export default function Home({ jobs, user }) {
   return (
     <div className='mt-10'>
       {!session ? (
-        <a href='/api/auth/signin' className='border px-8 py-2 mt-5 font-bold rounded-full bg-black text-white border-black'>Login</a>
+        <Link href='/api/auth/signin' className='border px-8 py-2 mt-5 font-bold rounded-full bg-black text-white border-black'>Login</Link>
       ) : (
-        <a href='/api/auth/signout' className='border px-8 py-2 mt-5 font-bold rounded-full bg-black text-white border-black'>Logout</a> 
+        <Link href='/api/auth/signout' className='border px-8 py-2 mt-5 font-bold rounded-full bg-black text-white border-black'>Logout</Link> 
       )}
       <div className='text-center p-4 m-4'>
         <h2 className='mb-10 text-4xl font-bold'>Find a job!</h2>
