@@ -12,7 +12,7 @@ export default function Dashboard({ jobs, user, applications }) {
       <div className='text-center p-4 m-4'>
         <h2 className='mb-10 text-4xl font-bold'>Dashboard</h2>
         {user.company && (
-          <span className='bg-black text-white uppercase text-sm p-2 '>
+          <span className='bg-black text-white uppercase text-sm p-2'>
             Company
           </span>
         )}
